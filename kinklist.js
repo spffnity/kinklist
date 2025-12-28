@@ -41,14 +41,21 @@ $(function(){
     var imgurClientId = '9db53e5936cd02f';
 
     $("#listType").change(function() {
-        fileToRead = $("#listType").val() + '.txt';
+        var $listType = $(this);
+        $listType.prop('disabled', true);
+        var fileToRead = $listType.val() + '.txt';
         $.get(fileToRead, function(data) {
             $('#Kinks').text(data);
             var selection = inputKinks.saveSelection();
             var kinksText = $('#Kinks').val();
             kinks = inputKinks.parseKinksText(kinksText);
             inputKinks.fillInputList();
-        }, 'text');
+            inputKinks.parseHash();
+            $listType.prop('disabled', false);
+        }, 'text').fail(function(){
+            alert('Failed to load list file: ' + fileToRead);
+            $listType.prop('disabled', false);
+        });
 
     }); 
     
@@ -175,6 +182,40 @@ $(function(){
             // Make export button work
             $('#Export').on('click', inputKinks.export);
             $('#URL').on('click', function(){ this.select(); });
+            
+            // Make copy button work
+            $('#CopyURL').on('click', function(){
+                var $url = $('#URL');
+                var url = $url.val();
+                var $btn = $(this);
+                var originalText = $btn.text();
+                
+                // Try modern Clipboard API first
+                if (navigator.clipboard && window.isSecureContext) {
+                    navigator.clipboard.writeText(url).then(function() {
+                        $btn.text('Copied!');
+                        setTimeout(function(){ $btn.text(originalText); }, 2000);
+                    }).catch(function() {
+                        // Fallback to old method
+                        copyFallback($url, $btn, originalText);
+                    });
+                } else {
+                    // Fallback for older browsers or non-HTTPS
+                    copyFallback($url, $btn, originalText);
+                }
+            });
+            
+            function copyFallback($url, $btn, originalText) {
+                $url[0].select();
+                $url[0].setSelectionRange(0, 99999); // For mobile devices
+                try {
+                    document.execCommand('copy');
+                    $btn.text('Copied!');
+                    setTimeout(function(){ $btn.text(originalText); }, 2000);
+                } catch(e) {
+                    alert('Failed to copy URL. Please copy it manually.');
+                }
+            }
 
             // On resize, redo columns
             (function(){
@@ -294,8 +335,13 @@ $(function(){
         },
         export: function(){
             var username = prompt("Please enter your name");
-            if(typeof username !== 'string') return;
-            else if (username.length ) username = '(' + username + ')';
+            if(typeof username !== 'string' || username === null) return;
+            username = username.trim();
+            if (username.length > 0) {
+                username = '(' + username + ')';
+            } else {
+                username = '';
+            }
 
             $('#Loading').fadeIn();
             $('#URL').fadeOut();
@@ -437,10 +483,12 @@ $(function(){
                     $('#Loading').hide();
                     var url = 'https://i.imgur.com/' + result.data.id + '.png';
                     $('#URL').val(url).fadeIn();
+                    $('#CopyURL').fadeIn();
                 },
-                fail: function(){
+                error: function(xhr, status, error){
                     $('#Loading').hide();
-                    alert('Failed to upload to imgur, could not connect');
+                    console.error('Imgur upload failed:', status, error);
+                    alert('Failed to upload to imgur. Error: ' + (error || 'Could not connect') + '\n\nThe Imgur API client ID may need to be updated.');
                 }
             });
         },
@@ -481,7 +529,7 @@ $(function(){
             var outputPow = inputKinks.maxPow(hashBase, Number.MAX_SAFE_INTEGER);
 
             var values = [];
-            var numChunks = Math.max(output.length / outputPow)
+            var numChunks = Math.ceil(output.length / outputPow);
             for(var i = 0; i < numChunks; i++){
                 var chunk = output.substring(i * outputPow, (i + 1) * outputPow);
                 var chunkValues = inputKinks.decodeChunk(base, chunk);
@@ -525,19 +573,44 @@ $(function(){
                 if(!lvlInt) lvlInt = 0;
                 hashValues.push(lvlInt);
             });
-            return inputKinks.encode(Object.keys(colors).length, hashValues);
+            var listType = $('#listType').val();
+            return listType + '.' + inputKinks.encode(Object.keys(colors).length, hashValues);
         },
         parseHash: function(){
             var hash = location.hash.substring(1);
             if(hash.length < 10) return;
 
-            var values = inputKinks.decode(Object.keys(colors).length, hash);
-            var valueIndex = 0;
-            $('#InputList .choices').each(function(){
-                var $this = $(this);
-                var value = values[valueIndex++];
-                $this.children().eq(value).addClass('selected');
-            });
+            try {
+                // Extract list type if present
+                var parts = hash.split('.');
+                if(parts.length >= 2) {
+                    var listType = parts[0];
+                    if(['classic', 'detailed', 'plsno'].indexOf(listType) >= 0) {
+                        // Only change if different to avoid recursive loading
+                        if($('#listType').val() !== listType) {
+                            $('#listType').val(listType);
+                            $('#listType').trigger('change');
+                            return; // Exit here as change handler will call parseHash again
+                        }
+                        hash = parts.slice(1).join('.');
+                    }
+                }
+
+                var values = inputKinks.decode(Object.keys(colors).length, hash);
+                var valueIndex = 0;
+                // Clear all previous selections first
+                $('#InputList .choice.selected').removeClass('selected');
+                $('#InputList .choices').each(function(){
+                    var $this = $(this);
+                    var value = values[valueIndex++];
+                    if(value !== undefined && value >= 0 && value < $this.children().length) {
+                        $this.children().eq(value).addClass('selected');
+                    }
+                });
+            } catch(e) {
+                console.error('Failed to parse hash:', e);
+                // Don't alert to avoid annoying users, just log to console
+            }
         },
         saveSelection: function(){
             var selection = [];
@@ -677,7 +750,6 @@ $(function(){
         }).appendTo(attachElement);
     }
 
-    var stylesheet = document.styleSheets[0];
     $('.legend .choice').each(function(){
         var $choice = $(this);
         var $parent = $choice.parent();
@@ -690,8 +762,27 @@ $(function(){
         level[text] = cssClass;
     });
 
-    kinks = inputKinks.parseKinksText($('#Kinks').text().trim());
-    inputKinks.init();
+    // Check if there's a hash with a list type specified
+    var hash = location.hash.substring(1);
+    if(hash.length >= 10) {
+        var parts = hash.split('.');
+        if(parts.length >= 2) {
+            var listType = parts[0];
+            if(['classic', 'detailed', 'plsno'].indexOf(listType) >= 0) {
+                $('#listType').val(listType);
+            }
+        }
+    }
+
+    // Load the selected list type
+    var fileToRead = $('#listType').val() + '.txt';
+    $.get(fileToRead, function(data) {
+        $('#Kinks').text(data);
+        kinks = inputKinks.parseKinksText($('#Kinks').val());
+        inputKinks.init();
+    }, 'text').fail(function(){
+        alert('Failed to load initial list file: ' + fileToRead + '\n\nPlease make sure the file exists.');
+    });
 
     (function(){
         var $popup = $('#InputOverlay');

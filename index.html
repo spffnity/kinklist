@@ -1,4 +1,16 @@
 <!DOCTYPE html>
+<!--
+    Kinklist
+    Originally created by: adhesivecheese (https://github.com/adhesivecheese/kinklist)
+    Modified by: saustinlabs
+    
+    Modifications include:
+    - Fixed export button infinite loading bug
+    - Added list type preservation in URL hash
+    - Improved error handling and validation
+    - Added copy-to-clipboard functionality
+    - Various bug fixes and UX improvements
+-->
 <html>
     <head>
         <title>Kinklist</title>
@@ -32,12 +44,17 @@
                 <div><span data-color="#920000" class="choice limit"></span> <span class="legend-text">Limit</span></div>
             </div>
             <div id="ExportWrapper">
-                <input type="text" id="URL">
+                <input type="text" id="URL" readonly>
                 <button id="Export">Export</button>
+                <button id="CopyURL" style="display:none;">Copy URL</button>
                 <div id="Loading">Loading</div>
             </div>
             <button id="StartBtn"></button>
             <div id="InputList"></div>
+            <footer style="margin-top: 40px; padding: 20px 10px; border-top: 1px solid #ccc; text-align: center; color: #666; font-size: 12px;">
+                <p style="margin: 0;">Originally created by <a href="https://github.com/adhesivecheese/kinklist" target="_blank" rel="noopener" style="color: #4980ae; text-decoration: none;">adhesivecheese</a> | 
+                Modified by <a href="https://github.com/saustinlabs" target="_blank" rel="noopener" style="color: #4980ae; text-decoration: none;">saustinlabs</a></p>
+            </footer>
         </div>
         <div id="EditOverlay" class="overlay">
             <textarea id="Kinks">

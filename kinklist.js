@@ -1,3 +1,6 @@
+// Kinklist - Version 2.0 - Direct Download (No Imgur)
+// Last updated: 2025-12-28
+
 var log = function(val, base) {
     return Math.log(val) / Math.log(base);
 };

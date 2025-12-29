@@ -34,13 +34,33 @@
             <h1>Kinklist</h1>
             
             <div class="legend">
-                <div><span data-color="#FFFFFF" class="choice notEntered"></span> <span class="legend-text">Not Entered</span></div>
-                <div><span data-color="#6DB5FE" class="choice favorite"></span> <span class="legend-text">Favorite</span></div>
-                <div><span data-color="#23FD22" class="choice like"></span> <span class="legend-text">Like</span></div>
-                <div><span data-color="#FDFD6B" class="choice indifferent"></span> <span class="legend-text">Indifferent</span></div>
-                <div><span data-color="#DB6C00" class="choice maybe"></span> <span class="legend-text">Maybe</span></div>
-                <div><span data-color="#920000" class="choice limit"></span> <span class="legend-text">Limit</span></div>
+                <div title="Haven't decided yet"><span data-color="#FFFFFF" class="choice notEntered"></span> <span class="legend-text">Not Entered</span></div>
+                <div title="Absolutely love this, would be thrilled to include it"><span data-color="#6DB5FE" class="choice favorite"></span> <span class="legend-text">Favorite</span></div>
+                <div title="Enjoy this and happy to include it"><span data-color="#23FD22" class="choice like"></span> <span class="legend-text">Like</span></div>
+                <div title="Neutral about it, fine either way"><span data-color="#FDFD6B" class="choice indifferent"></span> <span class="legend-text">Okay</span></div>
+                <div title="Open to it but want to discuss first - depends on context/details"><span data-color="#DB6C00" class="choice maybe"></span> <span class="legend-text">Depends</span></div>
+                <div title="Not interested, please avoid"><span data-color="#920000" class="choice limit"></span> <span class="legend-text">Limit</span></div>
             </div>
+            
+            <details style="margin: 15px 0; padding: 10px; border: 1px solid #ddd; border-radius: 5px; background: #f9f9f9;">
+                <summary style="cursor: pointer; font-weight: bold; color: #4980ae;">✨ What's New in This Version</summary>
+                <div style="margin-top: 10px; font-size: 13px; line-height: 1.6;">
+                    <p><strong>New Features:</strong></p>
+                    <ul style="margin: 5px 0;">
+                        <li><strong>Unified List:</strong> No more separate "classic/detailed/plsno" versions - now one comprehensive list that adapts to your selections</li>
+                        <li><strong>Conditional Categories:</strong> Certain categories (like Watersports/Scat, Vore, Surrealism) only appear when you select related kinks - look for the ⊕ symbol!</li>
+                        <li><strong>Expanded Content:</strong> 150+ new kinks added including body types (athletic, dad bod, bears), roleplay dynamics, settings, intensity levels, and more</li>
+                        <li><strong>Clearer Labels:</strong> Rating options updated to "Okay" (neutral) vs "Depends" (needs discussion) for better clarity</li>
+                    </ul>
+                    <p><strong>Bug Fixes:</strong></p>
+                    <ul style="margin: 5px 0;">
+                        <li>Export button now works reliably</li>
+                        <li>URL hashes properly save and restore your selections</li>
+                        <li>Resizing window no longer changes your answers</li>
+                    </ul>
+                </div>
+            </details>
+            
             <div id="ExportWrapper">
                 <button id="Export">Download</button>
                 <div id="ExportMessage"></div>

@@ -4,7 +4,11 @@
 // Configuration for conditional categories
 var conditionalCategories = {
     'Watersports / Scat': { trigger: 'Watersports', triggerCategory: 'Fluids' },
-    'General Surrealism': { trigger: 'Surrealism', triggerCategory: 'General' }
+    'General Surrealism': { trigger: 'Transformation', triggerCategory: 'General' },
+    'Vore / Unbirth': { trigger: 'Vore', triggerCategory: 'General Surrealism' },
+    'Cum-related': { trigger: 'Cum play', triggerCategory: 'Fluids' },
+    'BDSM & Related': { trigger: 'Dominant / Submissive', triggerCategory: 'Domination' },
+    'Blood & Gore / Torture / Death': { trigger: 'Blood', triggerCategory: 'Fluids' }
 };
 
 var log = function(val, base) {
@@ -47,23 +51,15 @@ var level = {};
 
 $(function(){
 
-    $("#listType").change(function() {
-        var $listType = $(this);
-        $listType.prop('disabled', true);
-        var fileToRead = $listType.val() + '.txt';
-        $.get(fileToRead, function(data) {
-            $('#Kinks').text(data);
-            var selection = inputKinks.saveSelection();
-            var kinksText = $('#Kinks').val();
-            kinks = inputKinks.parseKinksText(kinksText);
-            inputKinks.fillInputList();
-            inputKinks.parseHash();
-            $listType.prop('disabled', false);
-        }, 'text').fail(function(){
-            alert('Failed to load list file: ' + fileToRead);
-            $listType.prop('disabled', false);
-        });
-
+    // Load the unified kinklist file
+    $.get('kinklist.txt', function(data) {
+        $('#Kinks').text(data);
+        var kinksText = $('#Kinks').val();
+        kinks = inputKinks.parseKinksText(kinksText);
+        inputKinks.fillInputList();
+        inputKinks.parseHash();
+    }, 'text').error(function(){
+        alert('Failed to load kinklist.txt');
     }); 
     
     inputKinks = {
@@ -614,31 +610,14 @@ $(function(){
             }
             
             var listType = $('#listType').val();
-            return listType + '.' + inputKinks.encode(Object.keys(colors).length, hashValues);
+            return inputKinks.encode(Object.keys(colors).length, hashValues);
         },
         parseHash: function(){
             var hash = location.hash.substring(1);
             if(hash.length < 10) return;
 
             try {
-                // Extract list type if present
-                var parts = hash.split('.');
-                var listType = null;
-                var hashData = hash;
-                
-                if(parts.length >= 2 && ['classic', 'detailed', 'plsno'].indexOf(parts[0]) >= 0) {
-                    listType = parts[0];
-                    hashData = parts.slice(1).join('.');
-                    
-                    // Only change list type if different to avoid recursive loading
-                    if($('#listType').val() !== listType) {
-                        $('#listType').val(listType);
-                        $('#listType').trigger('change');
-                        return; // Exit here as change handler will call parseHash again
-                    }
-                }
-
-                var values = inputKinks.decode(Object.keys(colors).length, hashData);
+                var values = inputKinks.decode(Object.keys(colors).length, hash);
                 var valueIndex = 0;
                 
                 // Clear all previous selections first

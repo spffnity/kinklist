@@ -37,7 +37,7 @@
 ? Expresses an interest in characters with wider than average hips and large buttocks.
 
 #Clothing
-(Self, Partner)
+(General)
 * Cross-dressing
 ? Engaging in an RP where one or more characters dress in the clothes of the gender opposite to their own.
 * Clothed sex
@@ -58,7 +58,7 @@
 ? Expresses an interest in the inclusion of uniforms or costumes in the sexual context of an RP, or an interest in characters wearing such.
 
 #Pairings
-(Self, Partner)
+(General)
 * Male
 * Female
 * Femboy
@@ -72,7 +72,7 @@
 * Multiple males & females
 
 #General
-(Self, Partner)
+(General)
 * Biting
 ? The act of biting or being bitten; sometimes painful, sometimes playful.
 * Condoms
@@ -148,7 +148,7 @@ cavity and/or throat, sometimes causing a gag reflex, or being the recipient of 
 ? Refers to the derivation of sexual stimulation from either/or the action of watching, typically in secret, a person (or people) reveal themselves or do something otherwise explicit, or the act of revealing one's self and/or doing something otherwise explicit with the intent to be viewed.
 
 # Oral Sex
-(Giving, Recieving)
+(General)
 * Blowjob
 ? Sexual stimulation by direct, physical contact of the mouth or tongue to male genitals
 * Cunnilingus
@@ -163,7 +163,7 @@ cavity and/or throat, sometimes causing a gag reflex, or being the recipient of 
 ? The act of penetrating the mouth of another character to the depths at which the penis or insertion enters the back of the mouth cavity and/or throat, sometimes causing a gag reflex, or being the recipient of such actions.
 
 #Ass play
-(Giving, Receiving)
+(General)
 * Ass Worship
 ? Gratuitous acknowledgment of one's partner's ass or buttocks, either verbal and/or physical, or receiving such actions.
 * Anal Fisting
@@ -186,7 +186,7 @@ cavity and/or throat, sometimes causing a gag reflex, or being the recipient of 
 ? Stretching the anus during penetration, to the point that it stays open for a period of time.
 
 #Restrictive
-(Self, Partner)
+(General)
 * Bondage (Light)
 ? The use of bondage that is mild or moderate in either the position in which it causes the bound character to be in, the duration for which the character will be in bondage, the level of discomfort caused by the bondage or the amount of immobilization that will occur due to the bondage.
 * Bondage (Heavy)
@@ -203,7 +203,7 @@ cavity and/or throat, sometimes causing a gag reflex, or being the recipient of 
 ? Being lead around on a leash
 
 #Toys
-(Self, Partner)
+(General)
 * Dildos
 ? an object shaped like an erect penis used for sexual stimulation.
 * Plugs
@@ -216,7 +216,7 @@ cavity and/or throat, sometimes causing a gag reflex, or being the recipient of 
 ? a vibrating device used for sexual stimulation.
 
 #Domination
-(As Dominant, As Submissive)
+(General)
 * General Dom / General Sub
 ? Catchall for Dominant/Submissive Activities.
 * Domestic servitude
@@ -241,7 +241,7 @@ cavity and/or throat, sometimes causing a gag reflex, or being the recipient of 
 ? Serving as the dominant's beck and call, or recieving such service, without choice.
 
 #No consent
-(Aggressor, Target)
+(General)
 * Blackmail / coercion
 ? Refers to the inclusion of Coercion and/or Blackmail in the context of the story arc of an RP, often in the form of a semi-consensual means of receiving sex from a partner.
 * Dubious consent
@@ -279,7 +279,7 @@ cavity and/or throat, sometimes causing a gag reflex, or being the recipient of 
 ? Refers to the derivation of sexual stimulation from either/or the action of watching, typically in secret, a person (or people) reveal themselves or do something otherwise explicit, or the act of revealing one's self and/or doing something otherwise explicit with the intent to be viewed.
 
 #General Surrealism
-(Self, Partner)
+(General)
 * Breast Growth
 ? A situation in which at least one character's female breasts grow in size, typically to fantastical proportions, by any means, including but not limited to magical or chemical.
 * Cock/Ball Growth
@@ -388,7 +388,7 @@ cavity and/or throat, sometimes causing a gag reflex, or being the recipient of 
 ? The act of sweating and/or receiving sexual gratification from the appearance, taste, scent and/or tactility of sweat.
 
 #Degradation
-(Giving, Receiving)
+(General)
 * Begging
 ? The self-abasing act of pleading, as a form of submission, being incorporated into an RP.
 * Cock Slapping
@@ -407,7 +407,7 @@ cavity and/or throat, sometimes causing a gag reflex, or being the recipient of 
 ? The act of verbally accosting or being verbally accosted with derogatory terms pertaining to sex, or in the effort to demean, degrade or otherwise humiliate another character, or occasionally to elicit sexual stimulation from abuse.
 
 #Touch & Stimulation
-(Actor, Subject)
+(General)
 * Ass worship
 ? Gratuitous acknowledgment of one's partner's ass, either verbal and/or physical, or receiving such actions; typically implies oral stimulation.
 * Cock/Pussy worship
@@ -422,7 +422,7 @@ cavity and/or throat, sometimes causing a gag reflex, or being the recipient of 
 ? The act of tickling and/or being tickled in a sexual context of an RP; or, receiving sexual stimulation from such.
 
 #Misc. Fetish
-(Giving, Receiving)
+(General)
 * Breast/Nipple Worship
 ? Gratuitous acknowledgement of one's partner's chest or nipples, either verbal and/or physical, or receiving such actions.
 * Breath play
@@ -616,7 +616,7 @@ cavity and/or throat, sometimes causing a gag reflex, or being the recipient of 
 ? The act of urinating in one's underwear, pants or clothes, or having another character urinate onto a person who is clothed to any degree.
 
 #Pain
-(Giving, Receiving)
+(General)
 * Light pain
 ? Refers to the inclusion of light physical pain due to acts which are directly sexual.
 * Heavy pain
@@ -706,34 +706,3 @@ cavity and/or throat, sometimes causing a gag reflex, or being the recipient of 
 ? Torture that is sexual in nature, or greatly harms one sexually.
 * Swallowing Blood
 ? The act of orally consuming blood.
-
-#Meta
-(Self, Partner)
-* First Person
-* Third Person
-* Short Post Length (~1-3 sentences)
-* Medium Post Length (~3-7 sentences)
-* Long Post Length (~2-4 paragraphs)
-* Story (3+ paragraphs)
-* Dynamic Post Length
-
-#Medium
-(General)
-* Skype
-* Kik
-* Reddit
-* E-Mail
-* Discord
-* Other
-
-#Time-Scale
-(Self, Partner)
-* Short-Term Scenes
-* Medium-Term Scenes
-* Long-Term Scenes
-* Quick Replies (0~10 mins)
-* Fast Replies (10~30 mins)
-* Normal Replies (30min ~ 2hours)
-* Slow Replies (2~8 hours)
-* Glacial Replies (8-24 hours)
-* Occasional Replies (24+ hours)

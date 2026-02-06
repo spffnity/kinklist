@@ -59,7 +59,7 @@
 ? Expresses an interest in characters with visible scars or marks.
 
 #Clothing
-(Self, Partner)
+(General)
 * Clothed sex
 ? Engaging in an RP where you and/or your partner are not undressed during sexual interaction.
 * Lingerie
@@ -82,7 +82,7 @@
 ? An affinity for underwear, either being worn on one's self, one's partner(s) or by itself; often involves stimulation from the scent or tactility of the underwear, but may also refer to using underwear as a sex toy in any way.
 
 #Pairings
-(Self, Partner)
+(General)
 * Male
 * Female
 * Femboy
@@ -125,7 +125,7 @@
 ? Interest in scenarios involving famous individuals and admirers.
 
 #General
-(Self, Partner)
+(General)
 * Romance / Affection
 ? Displaying or expressing love or strong affection, passion, either during love making or during normal scenes.
 * Vanilla Sex
@@ -224,7 +224,7 @@
 ? Penetration from behind while both partners lie on their sides.
 
 # Oral Sex
-(Giving, Receiving)
+(General)
 * Blowjob
 ? Sexual stimulation by direct, physical contact of the mouth or tongue to male genitals
 * Cunnilingus
@@ -243,7 +243,7 @@
 ? Engaging in an RP in which a character that has never performed fellatio or cunnilingus performs such acts.
 
 #Ass play
-(Giving, Receiving)
+(General)
 * Ass Worship
 ? Gratuitous acknowledgment of one's partner's ass or buttocks, either verbal and/or physical, or receiving such actions.
 * Rimming
@@ -270,7 +270,7 @@
 ? Where insides of the anus are pulled out by force (unnatural means, such as a cream, liquid or suction method or internal massage) or naturally (either by a cock, dildo, or pushing)
 
 #Vaginal
-(Giving, Receiving)
+(General)
 * Vaginal sex
 ? Penetrative sex involving the vagina
 * Vaginal Toys
@@ -285,7 +285,7 @@
 ? Engaging in an RP in which at least one character exhibits exceptional tightness in his or her anus, vagina or throat; sometimes implies pain, exceptionally large penetrations and/or inexperience.
 
 #Restrictive
-(Self, Partner)
+(General)
 * Bondage (Light)
 ? The use of bondage that is mild or moderate in either the position in which it causes the bound character to be in, the duration for which the character will be in bondage, the level of discomfort caused by the bondage or the amount of immobilization that will occur due to the bondage.
 * Bondage (Heavy)
@@ -304,7 +304,7 @@
 ? Engaging in an RP in which at least one character will be entirely, physically immobilized by any means, often heavy bondage or mummification; typically involved in BDSM play.
 
 #Toys
-(Self, Partner)
+(General)
 * Dildos
 ? an object shaped like an erect penis used for sexual stimulation.
 * Plugs
@@ -325,7 +325,7 @@
 ? Specialized furniture designed to facilitate various sexual positions (wedges, benches, swings, etc.).
 
 #Temperature Play
-(Self, Partner)
+(General)
 * Ice Play
 ? Using ice cubes or cold objects on the body for sensation play.
 * Wax Play
@@ -338,7 +338,7 @@
 ? Using warmed massage oils for sensual touch.
 
 #Domination
-(As Dominant, As Submissive)
+(General)
 * Dominant / Submissive
 ? General interest in dominant/submissive dynamics and power exchange.
 * Power exchange
@@ -369,7 +369,7 @@
 ? Combining humiliation/degradation during scenes with supportive care afterward.
 
 #No consent
-(Aggressor, Target)
+(General)
 * Non-con / rape
 ? taking/being taken against one's will, often through force
 * Blackmail / coercion
@@ -411,7 +411,7 @@
 ? Refers to the derivation of sexual stimulation from either/or the action of watching, typically in secret, a person (or people) reveal themselves or do something otherwise explicit, or the act of revealing one's self and/or doing something otherwise explicit with the intent to be viewed.
 
 #Fantasy Creatures
-(Self, Partner)
+(General)
 * Furry
 ? Anthropomorphic animal characters.
 * Futanari/Futa
@@ -424,7 +424,7 @@
 ? Engaging in an RP in which self-sentient tentacles or tentacle-like appendages will penetrate a character; often implies multiple penetration.
 
 #General Surrealism
-(Self, Partner)
+(General)
 * Transformation
 ? The act of causing the physical characteristics of a participant of an RP, possibly including one's self, by magical or chemical means, to change in a dramatic fashion; may refer to a myriad of different types of transformations, and connotates receiving sexual pleasure from the act of transformation itself.
 * Vore
@@ -599,7 +599,7 @@
 ? The act of urinating in one's underwear, pants or clothes, or having another character urinate onto a person who is clothed to any degree.
 
 #Degradation
-(Giving, Receiving)
+(General)
 * Glory hole
 ? Servicing a partner or receiving service from a partner with a physical barrier between the participants
 * Name calling
@@ -616,8 +616,9 @@
 ? The act of verbally accosting or being verbally accosted with derogatory terms pertaining to sex, or in the effort to demean, degrade or otherwise humiliate another character, or occasionally to elicit sexual stimulation from abuse.
 
 #Touch & Stimulation
-(Actor, Subject)
-* Cock/Pussy worship
+(General)
+* Cock worship
+* Pussy worship
 ? Gratuitous acknowledgment of one's partner's genitalia, either verbal and/or physical, or receiving such actions; typically implies oral stimulation.
 * Ass worship
 ? Gratuitous acknowledgment of one's partner's ass, either verbal and/or physical, or receiving such actions; typically implies oral stimulation.
@@ -631,7 +632,7 @@
 ? The use of sex toys that carry an electrical current; sometimes painful.
 
 #Breast Play
-(Actor, Subject)
+(General)
 * Breast/Nipple Worship
 ? Gratuitous acknowledgement of one's partner's chest or nipples, either verbal and/or physical, or receiving such actions.
 * Breast/Nipple Play
@@ -640,7 +641,7 @@
 ? Tying or binding breasts with rope, tape, or other materials, often to make them more prominent or restrict movement.
 
 #Foreskin Play
-(Actor, Subject)
+(General)
 * Foreskin Worship
 ? Gratuitous acknowledgment of one's partner's foreskin, either verbal and/or physical, or receiving such actions; typically implies oral stimulation.
 * Foreskin Play
@@ -649,7 +650,7 @@
 ? The act of inserting one penis into another person's foreskin for mutual stimulation.
 
 #Foot Worship
-(Actor, Subject)
+(General)
 * Foot play
 ? The act of incorporating the feet or feet paws into the sexual context of an RP, including but not limited to the worshiping of feet, receiving sexual gratification from the sight or smell of feet and/or humping feet, sometimes to the point of orgasm.
 * Footjob
@@ -660,7 +661,7 @@
 ? Oral stimulation of toes, often as part of foot worship or domination scenarios.
 
 #Group Sex
-(Giving, Receiving)
+(General)
 * Gangbang
 ? When multiple partners, usually 3 or more, engage in sexual intercourse with a single willing partner.
 * Cuckold / Cuckquean
@@ -673,7 +674,7 @@
 ? Sexual activity where one person is penetrated from both ends simultaneously, typically oral and vaginal/anal.
 
 #Breeding & Pregnancy
-(Self, Partner)
+(General)
 * Impregnation
 ? Impregnating a character or being impregnated.
 * Breeding
@@ -688,7 +689,7 @@
 ? Interest in the act of giving birth or being present during labor, sometimes in a sexual or fetishistic context.
 
 #Body Modification
-(Self, Partner)
+(General)
 * Feminization
 ? Imposing traditionally female attributes onto a submissive male partner, including adoption of traditionally feminine behaviors and mannerisms.
 * Masculinization
@@ -697,7 +698,7 @@
 ? Engaging in the removal of fur/hair from a participant in an RP by the means of shaving.
 
 #Breath & Smothering
-(Giving, Receiving)
+(General)
 * Breath play
 ? Physical control over another character's breathing habits, often by intermittent choking and/or due to throat penetration.
 * Breast Smothering
@@ -708,7 +709,7 @@
 ? Restricting breathing to the point of oxygen deprivation for sexual pleasure.
 
 #Scents & Smells
-(Self, Partner)
+(General)
 * Crotch Sniffing
 ? The act of receiving pleasure from inhaling the scent of the crotch, or receiving such actions. Emphasis is often placed on the musk and/or pheromone-related properties of the scent.
 * Musk
@@ -721,7 +722,7 @@
 ? Heightened attraction and arousal driven by natural or enhanced pheromones, sometimes to an exaggerated or supernatural degree.
 
 #Other Fetishes
-(Actor, Subject)
+(General)
 * Slob
 ? Characters without hygiene or uncaring of typical standards for cleanliness due to laziness, personal choice, or otherwise; may emphasize and derive pleasure from laziness or from actions linked with a lack of hygiene.
 * Food Play
@@ -736,7 +737,7 @@
 ? The act of pulling or tugging on another character's hair, or being the recipient of such.
 
 #Pain
-(Giving, Receiving)
+(General)
 * Light pain
 ? Refers to the inclusion of light physical pain due to acts which are directly sexual.
 * Heavy pain
@@ -904,7 +905,7 @@
 ? Scenes during trips, cruises, resort stays.
 
 #Intensity & Pacing
-(Self, Partner)
+(General)
 * Slow Burn
 ? Gradual build-up of tension and attraction over time.
 * Instant Attraction
@@ -954,7 +955,7 @@
 ? Lighthearted and funny scenarios.
 
 #Technology & Digital Play
-(Self, Partner)
+(General)
 * Sexting
 ? Exchanging sexual messages, typically via text.
 * Nudes/Photo Exchange
@@ -975,52 +976,3 @@
 ? Conducting entire RP sessions through text messages in character.
 * Social Media Interaction
 ? Using platforms like Twitter/X for RP or flirting in character.
-
-#Communication Style
-(Self, Partner)
-* Voice Calls
-* Video Calls
-* Text Only
-* One-Word Responses
-* Short Messages (1-3 sentences)
-* Medium Messages (3-7 sentences)
-* Long Messages (1-3 paragraphs)
-* Very Long Messages (3+ paragraphs)
-* Dynamic Length (varies by mood/scene)
-* First Person POV
-* Third Person POV
-* Asterisk Actions (*does this*)
-* Quotation Dialogue
-* Literate/Detailed Writing
-* Casual/Relaxed Writing
-
-#Platform
-(General)
-* Discord
-* Telegram
-* Twitter/X
-* VRChat
-* E-Mail
-* Skype
-* Kik
-* Snapchat
-* WhatsApp
-* Instagram DMs
-* Other
-
-#Availability & Response Time
-(Self, Partner)
-* Available for Voice/Video Calls
-* Text-Based Sessions Only
-* Short Sessions (under 1 hour)
-* Medium Sessions (1-3 hours)
-* Long Sessions (3+ hours)
-* Marathon Sessions (all day/night)
-* Quick Replies (0~10 mins)
-* Fast Replies (10~30 mins)
-* Normal Replies (30min ~ 2 hours)
-* Slow Replies (2~8 hours)
-* Very Slow Replies (8-24 hours)
-* Casual Replies (24+ hours)
-* Prefers Scheduled Sessions
-* Prefers Spontaneous Sessions
